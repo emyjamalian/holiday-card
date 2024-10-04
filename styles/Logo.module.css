@@ -1,0 +1,9 @@
+.logo {
+  z-index: 1;
+  padding: 5px;
+}
+@media (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+}

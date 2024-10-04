@@ -1,0 +1,106 @@
+.cardSection {
+    /* background-image: url("/img/home/xmas.jpeg") no-repeat 1 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 96vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    /* z-index: -1; */
+    /* text-align: center; */
+    top: 10px;
+    color: black;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url("/img/home/xmas.jpeg");
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardPage {
+    width: 80%;
+    padding: 50px 30px;
+    margin: 20px 0;
+}
+
+.cardTitle {
+    margin: 10px 0;
+}
+
+.cardBody {
+    font-size: 110%;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.cardBody pre {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(237, 236, 236);
+    /* line-height: 1.8; */
+}
+.cardBody ul,
+.cardBody ol {
+    font-size: 110%;
+    margin: 5px;
+    padding-left: 40px;
+}
+
+.cardBody p {
+    line-height: 1.8;
+}
+.cardBody h1,
+.cardBody h2 {
+    margin: 15px 0 0 0;
+}
+
+.cardBody table,
+.cardBody th,
+.cardBody td {
+    border: 1px solid;
+}
+
+.cardBody td {
+    padding: 10px;
+}
+
+.cardBody table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.cardImg {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    color: var(--color-white-whip);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: inherit;
+    margin-top: 10px;
+    background-color: rgb(220, 220, 220, 0.3);
+}
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    background: var(--color-red-dark);
+}
